@@ -1,0 +1,30 @@
+Reaction ID
+CH3CH3 + 2 * <--> CH2CH3* + H* 
+CH2CH2 + * <--> CH2CH2* 
+CHCH + * <--> CHCH* 
+CH4 + * <--> CH4* 
+H2 + 2 * <--> 2 H* 
+CC* + * <--> 2 C* 
+CCH* + * <--> C* + CH* 
+CCH* + * <--> CC* + H* 
+CCH2* + * <--> C* + CH2* 
+CCH2* + * <--> CCH* + H* 
+CCH3* + * <--> C* + CH3* 
+CCH3* + * <--> CCH2* + H* 
+CH* + * <--> C* + H* 
+CH2* + * <--> CH* + H* 
+CH2CH2* + * <--> 2 CH2* 
+CH2CH2* + * <--> CHCH2* + H* 
+CH2CH3* + * <--> CH2* + CH3* 
+CH2CH3* + * <--> CH2CH2* + H* 
+CH2CH3* + * <--> CHCH3* + H* 
+CH4* + * <--> CH3* + H* 
+CH3* + * <--> CH2* + H* 
+CHCH* + * <--> CCH* + H* 
+CHCH* + * <--> 2 CH* 
+CHCH2* + * <--> CCH2* + H* 
+CHCH2* + * <--> CH* + CH2* 
+CHCH2* + * <--> CHCH* + H* 
+CHCH3* + * <--> CCH3* + H* 
+CHCH3* + * <--> CH* + CH3* 
+CHCH3* + * <--> CHCH2* + H* 
