@@ -1,0 +1,11 @@
+Species_name	Phase	Surf_cov	O	H	Ar	N
+H2	Gas	0	0	2	0	0
+H	Gas	0	0	1	0	0
+O	Gas	0	1	0	0	0
+O2	Gas	0	2	0	0	0
+OH	Gas	0	1	1	0	0
+H2O	Gas	0	1	2	0	0
+HO2	Gas	0	2	1	0	0
+H2O2	Gas	0	2	2	0	0
+AR	Gas	0	0	0	1	0
+N2	Gas	0	0	0	0	2
