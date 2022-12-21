@@ -1,0 +1,23 @@
+ This output was generated using the Vlachos Group reactor code, revision #119
+ 
+ Mechanism contains 3 gas, 14 surface, and 1 bulk species made of 3 elements with 2 surface site types
+ Mechanism contains 0 gas and 14 surface reactions
+ 
+ Reactor type 3 (PFR)
+ 100 CSTRs used
+ 
+ Reactor size is  1.00000E+00
+ 
+ Isothermal system
+ 
+ Steady state results only saved
+ Results saved for 0 transient and 101 steady state points per simulation point
+ 
+ Run conditions for 1 simulation points and mole fractions/coverages for 5 non-zero inlet species
+ Flow rates given at STP
+     Temp [K]  Press [atm] Flow [cm3/s]   S/V [1/cm] N2               NH3              H2               RU(T)            RU(S)           
+   900.00       1.0000      0.30350       1200.0          0.00000          1.00000          0.00000          1.00000          1.00000    
+ 
+ Sensitivity analysis type 0 (off)
+ 
+ Calculations performed at 0 mapped binding energies per simulation point

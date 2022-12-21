@@ -1,0 +1,21 @@
+     1                 itube_restart
+          18 Number of nonzero entries
+ 'N2/GAS/'                            5.5738091E-002
+ 'NH3/GAS/'                           7.7704763E-001
+ 'H2/GAS/'                            1.6721427E-001
+ 'N2(T)/TERRACE/'                     5.6107679E-006
+ 'N(T)/TERRACE/'                      2.9086119E-001
+ 'H(T)/TERRACE/'                      2.6590999E-002
+ 'NH3(T)/TERRACE/'                    7.5001679E-007
+ 'NH2(T)/TERRACE/'                    1.1110550E-005
+ 'NH(T)/TERRACE/'                     1.8279138E-003
+ 'RU(T)/TERRACE/'                     6.8070243E-001
+ 'N2(S)/STEP/'                        1.1570000E-006
+ 'N(S)/STEP/'                         2.8042279E-001
+ 'H(S)/STEP/'                         2.6626236E-002
+ 'NH3(S)/STEP/'                       1.7608144E-005
+ 'NH2(S)/STEP/'                       2.2386098E-002
+ 'NH(S)/STEP/'                        6.6344169E-004
+ 'RU(S)/STEP/'                        6.6988267E-001
+ fluxmass                             2.3061857E-004
+ EOF

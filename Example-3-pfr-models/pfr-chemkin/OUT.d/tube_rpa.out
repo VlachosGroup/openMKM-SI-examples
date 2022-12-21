@@ -1,0 +1,118 @@
+ ********* Experimental Condition #  1 *********
+Temperature [K]:  900.00
+ Rates (mol/s) and Partial Equilibrium Analysis:
+   Rxn #    Net Rate       Fwd Rate       PE Ratio       EA (kcal/mol)  Equil Const
+       1   -2.23419E-07    4.62288E+01    5.00000E-01    0.00000E+00    6.73919E+02     H2+2RU(T)<=>2H(T)+2RU(B)
+       2   -7.44730E-08    6.16831E+00    5.00000E-01    0.00000E+00    1.09204E+01     N2+RU(T)<=>N2(T)+RU(B)
+       3    1.48946E-07    1.09720E+02    5.00000E-01    0.00000E+00    1.04711E-01     NH3+RU(T)<=>NH3(T)+RU(B)
+       4   -1.22278E-06    1.86127E-02    4.99984E-01    0.00000E+00    6.97664E+02     H2+2RU(S)<=>2H(S)+2RU(B)
+       5   -4.07593E-07    1.23553E-01    4.99999E-01    0.00000E+00    2.28827E+00     N2+RU(S)<=>N2(S)+RU(B)
+       6    8.15186E-07    2.20931E+00    5.00000E-01    0.00000E+00    2.49801E+00     NH3+RU(S)<=>NH3(S)+RU(B)
+       7    1.48946E-07    2.15901E-06    5.17863E-01    2.54824E+01    6.21565E-01     NH3(T)+RU(T)<=>NH2(T)+H(T)+RU(B)
+       8    1.48946E-07    6.96424E-04    5.00053E-01    2.28017E+01    6.42822E+00     NH2(T)+RU(T)<=>NH(T)+H(T)+RU(B)
+       9    1.48946E-07    3.94795E-03    5.00009E-01    3.07419E+01    6.21618E+00     NH(T)+RU(T)<=>N(T)+H(T)+RU(B)
+      10   -7.44730E-08    3.53549E-12    4.74690E-05    5.12668E+01    1.05153E+00     N2(T)+RU(T)<=>2N(T)+RU(B)
+      11    8.15186E-07    1.24715E-04    5.01639E-01    1.75001E+01    5.08656E+01     NH3(S)+RU(S)<=>NH2(S)+H(S)+RU(B)
+      12    8.15186E-07    1.21841E-04    5.01678E-01    3.38330E+01    1.18591E-03     NH2(S)+RU(S)<=>NH(S)+H(S)+RU(B)
+      13    8.15186E-07    1.25362E-03    5.00163E-01    2.29687E+01    1.68114E+01     NH(S)+RU(S)<=>N(S)+H(S)+RU(B)
+      14   -4.07593E-07    1.72404E-11    4.22944E-05    3.73470E+01    4.29137E+00     N2(S)+RU(S)<=>2N(S)+RU(B)
+ ----------Reaction Path Analysis----------
+ ------------------------------------------
+ going to species number:            1  and name: N2              
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       2    1.54487E+01   -7.44730E-08    6.16831E+00    5.00000E-01     N2+RU(T)<=>N2(T)+RU(B)
+       5    8.45513E+01   -4.07593E-07    1.23553E-01    4.99999E-01     N2+RU(S)<=>N2(S)+RU(B)
+ ------------------------------------------
+ going to species number:            2  and name: NH3             
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       3   -1.54487E+01    1.48946E-07    1.09720E+02    5.00000E-01     NH3+RU(T)<=>NH3(T)+RU(B)
+       6   -8.45513E+01    8.15186E-07    2.20931E+00    5.00000E-01     NH3+RU(S)<=>NH3(S)+RU(B)
+ ------------------------------------------
+ going to species number:            3  and name: H2              
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       1    1.54487E+01   -2.23419E-07    4.62288E+01    5.00000E-01     H2+2RU(T)<=>2H(T)+2RU(B)
+       4    8.45513E+01   -1.22278E-06    1.86127E-02    4.99984E-01     H2+2RU(S)<=>2H(S)+2RU(B)
+ ------------------------------------------
+ going to species number:            4  and name: N2(T)           
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       2   -1.00000E+02   -7.44730E-08    6.16831E+00    5.00000E-01     N2+RU(T)<=>N2(T)+RU(B)
+      10    1.00000E+02   -7.44730E-08    3.53549E-12    4.74690E-05     N2(T)+RU(T)<=>2N(T)+RU(B)
+ ------------------------------------------
+ going to species number:            5  and name: N(T)            
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       9    1.00000E+02    1.48946E-07    3.94795E-03    5.00009E-01     NH(T)+RU(T)<=>N(T)+H(T)+RU(B)
+      10   -1.00000E+02   -7.44730E-08    3.53549E-12    4.74690E-05     N2(T)+RU(T)<=>2N(T)+RU(B)
+ ------------------------------------------
+ going to species number:            6  and name: H(T)            
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       1   -1.00000E+02   -2.23419E-07    4.62288E+01    5.00000E-01     H2+2RU(T)<=>2H(T)+2RU(B)
+       7    3.33333E+01    1.48946E-07    2.15901E-06    5.17863E-01     NH3(T)+RU(T)<=>NH2(T)+H(T)+RU(B)
+       8    3.33333E+01    1.48946E-07    6.96424E-04    5.00053E-01     NH2(T)+RU(T)<=>NH(T)+H(T)+RU(B)
+       9    3.33333E+01    1.48946E-07    3.94795E-03    5.00009E-01     NH(T)+RU(T)<=>N(T)+H(T)+RU(B)
+ ------------------------------------------
+ going to species number:            7  and name: NH3(T)          
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       3    1.00000E+02    1.48946E-07    1.09720E+02    5.00000E-01     NH3+RU(T)<=>NH3(T)+RU(B)
+       7   -1.00000E+02    1.48946E-07    2.15901E-06    5.17863E-01     NH3(T)+RU(T)<=>NH2(T)+H(T)+RU(B)
+ ------------------------------------------
+ going to species number:            8  and name: NH2(T)          
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       7    1.00000E+02    1.48946E-07    2.15901E-06    5.17863E-01     NH3(T)+RU(T)<=>NH2(T)+H(T)+RU(B)
+       8   -1.00000E+02    1.48946E-07    6.96424E-04    5.00053E-01     NH2(T)+RU(T)<=>NH(T)+H(T)+RU(B)
+ ------------------------------------------
+ going to species number:            9  and name: NH(T)           
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       8    1.00000E+02    1.48946E-07    6.96424E-04    5.00053E-01     NH2(T)+RU(T)<=>NH(T)+H(T)+RU(B)
+       9   -1.00000E+02    1.48946E-07    3.94795E-03    5.00009E-01     NH(T)+RU(T)<=>N(T)+H(T)+RU(B)
+ ------------------------------------------
+ going to species number:           10  and name: RU(T)           
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       1    7.50000E+01   -2.23419E-07    4.62288E+01    5.00000E-01     H2+2RU(T)<=>2H(T)+2RU(B)
+       2    1.25000E+01   -7.44730E-08    6.16831E+00    5.00000E-01     N2+RU(T)<=>N2(T)+RU(B)
+       3   -2.50000E+01    1.48946E-07    1.09720E+02    5.00000E-01     NH3+RU(T)<=>NH3(T)+RU(B)
+       7   -2.50000E+01    1.48946E-07    2.15901E-06    5.17863E-01     NH3(T)+RU(T)<=>NH2(T)+H(T)+RU(B)
+       8   -2.50000E+01    1.48946E-07    6.96424E-04    5.00053E-01     NH2(T)+RU(T)<=>NH(T)+H(T)+RU(B)
+       9   -2.50000E+01    1.48946E-07    3.94795E-03    5.00009E-01     NH(T)+RU(T)<=>N(T)+H(T)+RU(B)
+      10    1.25000E+01   -7.44730E-08    3.53549E-12    4.74690E-05     N2(T)+RU(T)<=>2N(T)+RU(B)
+ ------------------------------------------
+ going to species number:           11  and name: N2(S)           
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       5   -1.00000E+02   -4.07593E-07    1.23553E-01    4.99999E-01     N2+RU(S)<=>N2(S)+RU(B)
+      14    1.00000E+02   -4.07593E-07    1.72404E-11    4.22944E-05     N2(S)+RU(S)<=>2N(S)+RU(B)
+ ------------------------------------------
+ going to species number:           12  and name: N(S)            
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+      13    1.00000E+02    8.15186E-07    1.25362E-03    5.00163E-01     NH(S)+RU(S)<=>N(S)+H(S)+RU(B)
+      14   -1.00000E+02   -4.07593E-07    1.72404E-11    4.22944E-05     N2(S)+RU(S)<=>2N(S)+RU(B)
+ ------------------------------------------
+ going to species number:           13  and name: H(S)            
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       4   -1.00000E+02   -1.22278E-06    1.86127E-02    4.99984E-01     H2+2RU(S)<=>2H(S)+2RU(B)
+      11    3.33333E+01    8.15186E-07    1.24715E-04    5.01639E-01     NH3(S)+RU(S)<=>NH2(S)+H(S)+RU(B)
+      12    3.33333E+01    8.15186E-07    1.21841E-04    5.01678E-01     NH2(S)+RU(S)<=>NH(S)+H(S)+RU(B)
+      13    3.33333E+01    8.15186E-07    1.25362E-03    5.00163E-01     NH(S)+RU(S)<=>N(S)+H(S)+RU(B)
+ ------------------------------------------
+ going to species number:           14  and name: NH3(S)          
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       6    1.00000E+02    8.15186E-07    2.20931E+00    5.00000E-01     NH3+RU(S)<=>NH3(S)+RU(B)
+      11   -1.00000E+02    8.15186E-07    1.24715E-04    5.01639E-01     NH3(S)+RU(S)<=>NH2(S)+H(S)+RU(B)
+ ------------------------------------------
+ going to species number:           15  and name: NH2(S)          
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+      11    1.00000E+02    8.15186E-07    1.24715E-04    5.01639E-01     NH3(S)+RU(S)<=>NH2(S)+H(S)+RU(B)
+      12   -1.00000E+02    8.15186E-07    1.21841E-04    5.01678E-01     NH2(S)+RU(S)<=>NH(S)+H(S)+RU(B)
+ ------------------------------------------
+ going to species number:           16  and name: NH(S)           
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+      12    1.00000E+02    8.15186E-07    1.21841E-04    5.01678E-01     NH2(S)+RU(S)<=>NH(S)+H(S)+RU(B)
+      13   -1.00000E+02    8.15186E-07    1.25362E-03    5.00163E-01     NH(S)+RU(S)<=>N(S)+H(S)+RU(B)
+ ------------------------------------------
+ going to species number:           17  and name: RU(S)           
+   Rxn #   % Prod/Cons    Net Rate        Fwd Rate       PE Ratio
+       4    7.50000E+01   -1.22278E-06    1.86127E-02    4.99984E-01     H2+2RU(S)<=>2H(S)+2RU(B)
+       5    1.25000E+01   -4.07593E-07    1.23553E-01    4.99999E-01     N2+RU(S)<=>N2(S)+RU(B)
+       6   -2.50000E+01    8.15186E-07    2.20931E+00    5.00000E-01     NH3+RU(S)<=>NH3(S)+RU(B)
+      11   -2.50000E+01    8.15186E-07    1.24715E-04    5.01639E-01     NH3(S)+RU(S)<=>NH2(S)+H(S)+RU(B)
+      12   -2.50000E+01    8.15186E-07    1.21841E-04    5.01678E-01     NH2(S)+RU(S)<=>NH(S)+H(S)+RU(B)
+      13   -2.50000E+01    8.15186E-07    1.25362E-03    5.00163E-01     NH(S)+RU(S)<=>N(S)+H(S)+RU(B)
+      14    1.25000E+01   -4.07593E-07    1.72404E-11    4.22944E-05     N2(S)+RU(S)<=>2N(S)+RU(B)

@@ -1,0 +1,94 @@
+!NUMSPEC -- If /NO/ coverage effects are desired, set lcov=F in tube.inp
+12
+!Additional options
+!BE -- adjusted for binding energy (only important if scaling relations used)
+!Model -- 1 for old-style (simple linear), 2 for new-style (two parameter
+!  piecewise with threshold coverage), 3 for  three parameter piecewise model:
+!  slope #2, boundary point (threshold), slope #1 
+!BE    Model
+F      1
+!Each species block has the following format:
+! 'Species/Phase/' n
+! where n is the number of lines that follow the format
+! 'Species/Phase/' val1 val2
+!The first line is the species that is affected by the species on the
+!following lines. Subsequent lines have up to two values: the interaction
+!parameter val1 (both model types) and possibly a coverage threshold val2
+!(model type 2 only). The Species/Phase/ pair should be in quotes.
+!------------------------------------------------------------
+'N(S)/STEP/'            5 0.
+'N(S)/STEP/'            -47.0179
+'H(S)/STEP/'            -17.7545
+'NH3(S)/STEP/'          -25.1631
+'NH2(S)/STEP/'          -20.7620
+'NH(S)/STEP/'           -48.7823
+!--
+'H(S)/STEP/'            5 0.
+'N(S)/STEP/'            -17.7545
+'H(S)/STEP/'            -6.7043
+'NH3(S)/STEP/'          -9.5019
+'NH2(S)/STEP/'          -7.84
+'NH(S)/STEP/'           -18.4208
+!--
+'NH3(S)/STEP/'          5 0.
+'N(S)/STEP/'            -25.1631
+'H(S)/STEP/'            -9.5019
+'NH3(S)/STEP/'          -13.4668
+'NH2(S)/STEP/'          -11.1115
+'NH(S)/STEP/'           -26.1074
+!--
+'NH2(S)/STEP/'          5 0.
+'N(S)/STEP/'            -20.762
+'H(S)/STEP/'            -7.84
+'NH3(S)/STEP/'          -11.1115
+'NH2(S)/STEP/'          -19.8316
+'NH(S)/STEP/'           -21.5412
+!--
+'NH(S)/STEP/'           5 0.
+'N(S)/STEP/'            -48.7823 0.
+'H(S)/STEP/'            -18.4208 0.
+'NH3(S)/STEP/'          -26.1074 0.
+'NH2(S)/STEP/'          -21.5412 0.
+'NH(S)/STEP/'           -50.6129 0.
+!--
+'N(T)/TERRACE/'            5 0.
+'N(T)/TERRACE/'            -47.0179
+'H(T)/TERRACE/'            -17.7545
+'NH3(T)/TERRACE/'          -25.1631
+'NH2(T)/TERRACE/'          -20.7620
+'NH(T)/TERRACE/'           -48.7823
+!--
+'H(T)/TERRACE/'            5 0.
+'N(T)/TERRACE/'            -17.7545
+'H(T)/TERRACE/'            -6.7043
+'NH3(T)/TERRACE/'          -9.5019
+'NH2(T)/TERRACE/'          -7.84
+'NH(T)/TERRACE/'           -18.4208
+!--
+'NH3(T)/TERRACE/'          5 0.
+'N(T)/TERRACE/'            -25.1631
+'H(T)/TERRACE/'            -9.5019
+'NH3(T)/TERRACE/'          -13.4668
+'NH2(T)/TERRACE/'          -11.1115
+'NH(T)/TERRACE/'           -26.1074
+!--
+'NH2(T)/TERRACE/'          5 0.
+'N(T)/TERRACE/'            -20.762
+'H(T)/TERRACE/'            -7.84
+'NH3(T)/TERRACE/'          -11.1115
+'NH2(T)/TERRACE/'          -19.8316
+'NH(T)/TERRACE/'           -21.5412
+!--
+'NH(T)/TERRACE/'        5 0.
+'N(T)/TERRACE/'         -48.7823 0.
+'H(T)/TERRACE/'         -18.4208 0.
+'NH3(T)/TERRACE/'       -26.1074 0.
+'NH2(T)/TERRACE/'       -21.5412 0.
+'NH(T)/TERRACE/'        -50.6129 0.
+!--
+'N2(T)/TERRACE/'           1 0.
+'N2(T)/TERRACE/'           -6.00000
+!--
+'N2(S)/STEP/'           1 0.
+'N2(S)/STEP/'           -6.00000
+EOF

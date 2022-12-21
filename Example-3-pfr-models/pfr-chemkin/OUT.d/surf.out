@@ -1,0 +1,75 @@
+
+ SURFACE INTERPRETER OUTPUT: 
+ Copyright 1990, Sandia Corporation.
+ The U.S. Government retains a limited license in this software.
+ CHEMKIN-II Version 4.5   January, 1995
+ DOUBLE PRECISION
+ DYNAMICALLY-ALLOCATED WORK ARRAYS
+    INTEGER WORK ARRAY  :           19
+    REAL WORK ARRAY     :           72
+    CHARACTER WORK ARRAY:            6
+ -------------------------------------------------------------------------------
+ SPECIES                MOLECULAR                        ELEMENT COUNT
+ CONSIDERED             WEIGHT       Density    Nsites    N  H  Ru
+ -------------------------------------------------------------------------------
+
+ Gas phase species:
+   1. N2                 28.01340                         2  0  0
+   2. NH3                17.03061                         1  3  0
+   3. H2                  2.01594                         0  2  0
+
+ SITE: TERRACE                    0.257E-08 moles/cm**2
+   4. N2(T)              28.01340                   1     2  0  0
+   5. N(T)               14.00670                   1     1  0  0
+   6. H(T)                1.00797                   1     0  1  0
+   7. NH3(T)             17.03061                   1     1  3  0
+   8. NH2(T)             16.02264                   1     1  2  0
+   9. NH(T)              15.01467                   1     1  1  0
+  10. RU(T)             101.07000                   1     0  0  1
+
+ SITE: STEP                       0.524E-10 moles/cm**2
+  11. N2(S)              28.01340                   1     2  0  0
+  12. N(S)               14.00670                   1     1  0  0
+  13. H(S)                1.00797                   1     0  1  0
+  14. NH3(S)             17.03061                   1     1  3  0
+  15. NH2(S)             16.02264                   1     1  2  0
+  16. NH(S)              15.01467                   1     1  1  0
+  17. RU(S)             101.07000                   1     0  0  1
+
+ BULK: BULK1           
+  18. RU(B)             101.07000 0.124E+02 g/cm**3       0  0  1
+ 
+ -------------------------------------------------------------------------------
+                                                      (k = A T**b exp(-E/RT))
+      SURFACE REACTIONS CONSIDERED                      A        b        E
+
+   1. H2+2RU(T)<=>2H(T)+2RU(B)                      5.00E-01    0.0        0.0
+         Coefficients are sticking parameters...
+   2. N2+RU(T)<=>N2(T)+RU(B)                        5.00E-01    0.0        0.0
+         Coefficients are sticking parameters...
+   3. NH3+RU(T)<=>NH3(T)+RU(B)                      5.00E-01    0.0        0.0
+         Coefficients are sticking parameters...
+   4. H2+2RU(S)<=>2H(S)+2RU(B)                      5.00E-01    0.0        0.0
+         Coefficients are sticking parameters...
+   5. N2+RU(S)<=>N2(S)+RU(B)                        5.00E-01    0.0        0.0
+         Coefficients are sticking parameters...
+   6. NH3+RU(S)<=>NH3(S)+RU(B)                      5.00E-01    0.0        0.0
+         Coefficients are sticking parameters...
+   7. NH3(T)+RU(T)<=>NH2(T)+H(T)+RU(B)              9.15E+17    1.0        0.0
+   8. NH2(T)+RU(T)<=>NH(T)+H(T)+RU(B)               4.45E+18    1.0        0.0
+   9. NH(T)+RU(T)<=>N(T)+H(T)+RU(B)                 1.30E+19    1.0        0.0
+  10. N2(T)+RU(T)<=>2N(T)+RU(B)                     3.66E+17    1.0        0.0
+  11. NH3(S)+RU(S)<=>NH2(S)+H(S)+RU(B)              6.34E+19    1.0        0.0
+  12. NH2(S)+RU(S)<=>NH(S)+H(S)+RU(B)               4.51E+20    1.0        0.0
+  13. NH(S)+RU(S)<=>N(S)+H(S)+RU(B)                 3.60E+20    1.0        0.0
+  14. N2(S)+RU(S)<=>2N(S)+RU(B)                     8.81E+18    1.0        0.0
+
+  NOTE:  E units Kcal/mol, A units moles
+          Motz-Wise correction to sticking coefficients is turned off
+
+ NO ERRORS FOUND ON INPUT...SURFACE LINKING FILE WRITTEN.
+
+ WORKING SPACE REQUIREMENTS ARE
+    INTEGER:      597
+    REAL:         607
+    CHARACTER:     26

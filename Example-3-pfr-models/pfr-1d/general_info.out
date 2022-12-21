@@ -1,0 +1,31 @@
+-----------------------------------------------------------
+OpenMKM: version 0.6.1
+-----------------------------------------------------------
+
+OpenMKM is a multiphysics, multiscale, and open source software 
+aimed at modelng chemical kinetics. It can run pure gas phase 
+as well as surface mechanisms for heterogeneous catalysis.
+OpenMKM is developed at Delaware Energy Institute, University
+of Delaware. The development of OpenMKM is funded by RAPID.
+
+
+Solving for equilibirum surface coverages at PFR inlet
+Equilibrium surface coverages on Surface: terrace
+terrace:N2(T) coverage: 4.06625e-13
+terrace:N(T) coverage: 0.357168
+terrace:H(T) coverage: 2.64695e-06
+terrace:NH3(T) coverage: 4.24348e-07
+terrace:NH2(T) coverage: 4.17471e-08
+terrace:NH(T) coverage: 9.70638e-07
+terrace:RU(T) coverage: 0.642828
+Equilibrium surface coverages on Surface: step
+step:N2(S) coverage: 3.06975e-11
+step:N(S) coverage: 0.447138
+step:H(S) coverage: 0.000135431
+step:NH3(S) coverage: 2.13966e-06
+step:NH2(S) coverage: 0.0138527
+step:NH(S) coverage: 3.91851e-05
+step:RU(S) coverage: 0.538832
+Reactor temperature mode: isothermal
+Energy enabled? 0
+Program ran for 1793 milliseconds

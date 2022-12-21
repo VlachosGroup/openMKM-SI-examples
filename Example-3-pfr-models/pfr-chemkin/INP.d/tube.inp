@@ -1,0 +1,27 @@
+!irxtr (0=UHV/mol. beam, 1=batch, 2=cstr, 3=pfr)    nruns  MultiInput
+3                                                     1        F
+!lstp  t[K]   p[atm]  velo[cm3/s]  abyv[cm-1]  trise[K]
+F      900      1        1.0         1200       0.0
+!liso(yes=T,no=F) itpd (0=no, 1=UHV, 2=High Pressure) (itpd overrides liso)
+T                  0
+!text   aextbyv htc  ramp [K/s]
+923.0    3.571  0.0    0.0
+!MARI               Reactant
+'NH3/GAS/'          'NH3/GAS/'          
+!rlen[cm3]  nnodes ttout [s] rtime [s]  ntdec  ltra (F=only SS saved, T=transient saved)
+1.00          100    1.0E-15     5.0E1     60   F
+!ltol  abstol reltol  NonNeg(F/T: constraints off/on) restart_max (<=0 means no limit)
+F     1.E-10  1.E-5   T                                0
+!iSolver (0/1: iterative solver off/on)  mu  ml (upper/lower bandwidths for Krylov solver)
+0                                        0   0
+!lcov lStatpQ lBEP iScale lEA lomega omega Tref_beta (0: Tref=300K; 1: Tref=1K)
+  T     F      T    0      F    F    0.5      1
+!mrpa verbose_rpa   trpa    lsen   lDOE
+  1        F        900.0     F     F
+!lViz
+  F
+!Cutoffrate  EquiTol
+ 1.0e-20      0.05
+!VisualizationElements
+N H
+EOF

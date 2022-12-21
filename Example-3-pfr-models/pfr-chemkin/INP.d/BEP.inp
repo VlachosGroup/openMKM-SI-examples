@@ -1,0 +1,54 @@
+!BEP input.  In the lines below specify the number and specifics of linear correlations used.
+!------------------------------------------------
+   8         !number of correlations
+!------------------------------------------------
+! BEP #, BEP Type, m, b, decomposition/synthesis, mean/std dev uncertainty
+!   BEP Type: -1/0/1 is TSS IS/BEP/TSS FS
+!   m/b defined by
+!     -1: (ETS)=m(EIS)+b 
+!      0: (Ea)=m(deltaHrxn)+b
+!      1: (ETS)=m(EFS)+b 
+!     All intercepts are in kcal/mol and EIS, EFS, ETS are the heats of
+!       formation of the species (/NOT/ the binding energies)
+!   decomposition/synthesis reference direction denoted by -1/1
+!   If uncertainty values not needed, can use zeros as dummy entries
+!
+! Sutton JE, Vlachos DG (2012) A theoretical and computational analysis of
+! linear free energy relations for the estimation of activation energies
+! (Supplemental). ACS Catal 2:1024–1034 . doi: 10.1021/cs3003209
+!------------------------------------------------------------------------
+  1  0  0.581  28.00  -1  0.0  0.0    ! N-H   NH dissociation (Terrace)
+  2  0  0.725  25.50  -1  0.0  0.0    ! NH-H  NH2 dissociation (Terrace)
+  3  0  0.608  27.50  -1  0.0  0.0    ! NH2-H NH3 dissociation (Terrace)
+  4  0  0.514  48.60  -1  0.0  0.0    ! N-N    N2 dissociation (Terrace)
+  5  0  0.809  26.50  -1  0.0  0.0    ! N-H   NH dissociation (Step)
+  6  0  0.553  27.70  -1  0.0  0.0    ! NH-H  NH2 dissociation (Step)
+  7  0  0.470  22.30  -1  0.0  0.0    ! NH2-H NH3 dissociation (Step)
+  8  0  0.855  40.60  -1  0.0  0.0    ! N-N    N2 dissociation (Step)
+
+!------------------------------------------------------------------------
+!Specify BEP number and reaction direction for all reactions below.
+!The BEP number is given above (enter 0 if BEP should not be used for
+!this reaction). The reaction direction is one of -1/1 for
+!decomposition/synthesis. If BEPs are not used, then the reaction
+!direction does not need to be specified (use 0 as a dummy value).
+!Only those reactions using BEPs need to be specified. This is done
+!via the reaction string in the third column. This reaction string must
+!/exactly/ match the reaction string in surf.out (aside from the line break
+!and writing repeated species with a summed stoichiometric coefficient);
+!any deviation is a fatal error which will terminate the program. The first
+!line following the comments should be the total number of reactions using
+!BEP correlations.
+!------------------------------------------------
+!*******************************************************************************
+!Surface Rxn
+!*******************************************************************************
+8  Number of non-zero values
+1  -1     NH(T)+RU(T)<=>N(T)+H(T)+RU(B)
+2  -1     NH2(T)+RU(T)<=>NH(T)+H(T)+RU(B)
+3  -1     NH3(T)+RU(T)<=>NH2(T)+H(T)+RU(B)
+4  -1     N2(T)+RU(T)<=>2N(T)+RU(B)
+5  -1     NH(S)+RU(S)<=>N(S)+H(S)+RU(B)
+6  -1     NH2(S)+RU(S)<=>NH(S)+H(S)+RU(B)
+7  -1     NH3(S)+RU(S)<=>NH2(S)+H(S)+RU(B)
+8  -1     N2(S)+RU(S)<=>2N(S)+RU(B)
