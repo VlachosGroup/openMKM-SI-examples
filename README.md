@@ -17,7 +17,7 @@ This repository contains OpenMKM templates/examples that are mentioned in the Jo
 6. Example-6-Homogeneous-Catalysis
 - Adding two new proof of concept examples for OpenMKM
 - First example is extracted from the Figure 2&3 of the reference article: WIRES Comp Mol Sci 2018, 8, e1372
-- Second example id modified from the original MKM article: ChemCatChem 2012, 4, p504
+- Second example is modified from the original MKM article: ChemCatChem 2012, 4, p504
 
 
 ## Manuscript DOI
