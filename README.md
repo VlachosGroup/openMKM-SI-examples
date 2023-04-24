@@ -14,6 +14,11 @@ This repository contains OpenMKM templates/examples that are mentioned in the Jo
 - This example demonstrates the ability to superimpose user-defined Temperature profile along the length of a PFR-1D reactor. Ethane dehydrogenation of Pt is modeled using a) isothermal PFR, b) PFR with an increasing temperature profile, and c) PFR with a parabolic T profile. 
 5. Example-5-LSA-NSC
 - Example 5 depicts the use OpenMKM's local sensitivity analysis capabilities via normalized sensitivity coefficients. Ethane dehydrogenation model on Pt used in the previous model is also used here.  
+6. Example-6-Homogeneous-Catalysis
+- Adding two new proof of concept examples for OpenMKM
+- First example is extracted from the Figure 2&3 of the reference article: WIRES Comp Mol Sci 2018, 8, e1372
+- Second example id modified from the original MKM article: ChemCatChem 2012, 4, p504
+
 
 ## Manuscript DOI
 Placeholder. 
