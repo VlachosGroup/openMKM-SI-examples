@@ -1,0 +1,8 @@
+cat + react1 => int1
+int1 => cat + react1
+int1 + react2 => int2
+int2 => int1 + react2
+int2 => int3
+int3 => int2
+int3 => cat + prod
+cat + prod => int3

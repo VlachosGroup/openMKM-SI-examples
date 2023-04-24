@@ -1,0 +1,10 @@
+#Dimensionless entropies of reactions (S/R) at Reactor & Ref. Pressure (1bar)
+
+3.198673e+00    0.000000e+00    cat + react1 => int1
+-3.198673e+00   0.000000e+00    int1 => cat + react1
+3.198673e+00    0.000000e+00    int1 + react2 => int2
+-3.198673e+00   0.000000e+00    int2 => int1 + react2
+0.000000e+00    0.000000e+00    int2 => int3
+0.000000e+00    0.000000e+00    int3 => int2
+-3.198673e+00   0.000000e+00    int3 => cat + prod
+3.198673e+00    0.000000e+00    cat + prod => int3

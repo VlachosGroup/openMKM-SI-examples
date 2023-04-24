@@ -1,0 +1,9 @@
+Species_name	Phase	Surf_cov	H	C	O
+cat	Gas	0	1	1	0
+react1	Gas	0	1	1	0
+react2	Gas	0	1	1	0
+int1	Gas	0	2	2	0
+int2	Gas	0	3	3	0
+int3	Gas	0	3	3	0
+prod	Gas	0	2	2	0
+water	Gas	0	2	0	1

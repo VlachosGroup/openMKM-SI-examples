@@ -1,0 +1,10 @@
+#Dimensionless enthalpies of reactions (H/RT) at Reference Pressure 1bar
+
+0.000000e+00    cat + react1 => int1
+0.000000e+00    int1 => cat + react1
+0.000000e+00    int1 + react2 => int2
+0.000000e+00    int2 => int1 + react2
+0.000000e+00    int2 => int3    
+0.000000e+00    int3 => int2    
+0.000000e+00    int3 => cat + prod
+0.000000e+00    cat + prod => int3

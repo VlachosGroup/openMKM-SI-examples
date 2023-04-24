@@ -1,0 +1,10 @@
+#Equilibrium constants of reactions
+
+2.445310e+01    cat + react1 => int1
+4.089462e-02    int1 => cat + react1
+2.445310e+01    int1 + react2 => int2
+4.089462e-02    int2 => int1 + react2
+1.000000e+00    int2 => int3    
+1.000000e+00    int3 => int2    
+4.089462e-02    int3 => cat + prod
+2.445310e+01    cat + prod => int3

@@ -1,0 +1,10 @@
+#Forward rate constants of reactions
+
+1.337137e+09    cat + react1 => int1
+2.879423e+05    int1 => cat + react1
+1.816282e+03    int1 + react2 => int2
+9.830088e+03    int2 => int1 + react2
+7.226684e-02    int2 => int3    
+1.333381e-13    int3 => int2    
+2.875377e-06    int3 => cat + prod
+1.333381e-13    cat + prod => int3

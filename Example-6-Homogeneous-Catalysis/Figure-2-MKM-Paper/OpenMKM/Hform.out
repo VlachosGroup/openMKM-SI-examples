@@ -1,0 +1,10 @@
+#Dimensionless formation enthalpies of species (H/RT) at Reference Pressure of 1 bar
+
+cat                    0
+react1                 0
+react2                 0
+int1                   0
+int2                   0
+int3                   0
+prod                   0
+water                  0
