@@ -1,0 +1,19 @@
+#Forward rate constants of reactions
+
+1.113121e+08    Fructose-1 + H-BA => Inter-2
+3.314097e+06    Inter-2 => H2O + Inter-3
+1.435568e+09    Inter-3 => Inter-4
+9.216434e+02    Inter-4 => Inter-5
+9.874696e+07    Inter-5 => H2O + Inter-6
+3.867431e+07    Inter-6 => Inter-7
+4.912954e+10    Inter-7 => H2O + Inter-8
+3.524139e+06    Inter-8 => H-BA + HMF-9
+2.202021e+08    Inter-2 => Fructose-1 + H-BA
+2.638887e+03    H2O + Inter-3 => Inter-2
+1.540514e+12    Inter-4 => Inter-3
+1.166534e+08    Inter-5 => Inter-4
+2.229819e-08    H2O + Inter-6 => Inter-5
+1.606050e+12    Inter-7 => Inter-6
+1.352537e-08    H2O + Inter-8 => Inter-7
+2.605409e+06    H-BA + HMF-9 => Inter-8
+2.821218e-02    HMF-9 => LA-FA  

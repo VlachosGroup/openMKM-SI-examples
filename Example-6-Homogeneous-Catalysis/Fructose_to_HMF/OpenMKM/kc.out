@@ -1,0 +1,19 @@
+#Equilibrium constants of reactions
+
+3.964602e+01    Fructose-1 + H-BA => Inter-2
+2.522322e-02    Inter-2 => H2O + Inter-3
+1.000000e+00    Inter-3 => Inter-4
+1.000000e+00    Inter-4 => Inter-5
+2.522322e-02    Inter-5 => H2O + Inter-6
+1.000000e+00    Inter-6 => Inter-7
+2.522322e-02    Inter-7 => H2O + Inter-8
+2.522322e-02    Inter-8 => H-BA + HMF-9
+2.522322e-02    Inter-2 => Fructose-1 + H-BA
+3.964602e+01    H2O + Inter-3 => Inter-2
+1.000000e+00    Inter-4 => Inter-3
+1.000000e+00    Inter-5 => Inter-4
+3.964602e+01    H2O + Inter-6 => Inter-5
+1.000000e+00    Inter-7 => Inter-6
+3.964602e+01    H2O + Inter-8 => Inter-7
+3.964602e+01    H-BA + HMF-9 => Inter-8
+1.000000e+00    HMF-9 => LA-FA  

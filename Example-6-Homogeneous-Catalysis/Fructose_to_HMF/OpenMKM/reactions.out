@@ -1,0 +1,17 @@
+Fructose-1 + H-BA => Inter-2
+Inter-2 => H2O + Inter-3
+Inter-3 => Inter-4
+Inter-4 => Inter-5
+Inter-5 => H2O + Inter-6
+Inter-6 => Inter-7
+Inter-7 => H2O + Inter-8
+Inter-8 => H-BA + HMF-9
+Inter-2 => Fructose-1 + H-BA
+H2O + Inter-3 => Inter-2
+Inter-4 => Inter-3
+Inter-5 => Inter-4
+H2O + Inter-6 => Inter-5
+Inter-7 => Inter-6
+H2O + Inter-8 => Inter-7
+H-BA + HMF-9 => Inter-8
+HMF-9 => LA-FA

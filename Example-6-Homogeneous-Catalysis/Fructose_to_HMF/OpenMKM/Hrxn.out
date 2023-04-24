@@ -1,0 +1,19 @@
+#Dimensionless enthalpies of reactions (H/RT) at Reference Pressure 1bar
+
+0.000000e+00    Fructose-1 + H-BA => Inter-2
+0.000000e+00    Inter-2 => H2O + Inter-3
+0.000000e+00    Inter-3 => Inter-4
+0.000000e+00    Inter-4 => Inter-5
+0.000000e+00    Inter-5 => H2O + Inter-6
+0.000000e+00    Inter-6 => Inter-7
+0.000000e+00    Inter-7 => H2O + Inter-8
+0.000000e+00    Inter-8 => H-BA + HMF-9
+0.000000e+00    Inter-2 => Fructose-1 + H-BA
+0.000000e+00    H2O + Inter-3 => Inter-2
+0.000000e+00    Inter-4 => Inter-3
+0.000000e+00    Inter-5 => Inter-4
+0.000000e+00    H2O + Inter-6 => Inter-5
+0.000000e+00    Inter-7 => Inter-6
+0.000000e+00    H2O + Inter-8 => Inter-7
+0.000000e+00    H-BA + HMF-9 => Inter-8
+0.000000e+00    HMF-9 => LA-FA  

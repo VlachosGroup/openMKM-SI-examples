@@ -1,0 +1,19 @@
+#Dimensionless entropies of reactions (S/R) at Reactor & Ref. Pressure (1bar)
+
+3.679990e+00    0.000000e+00    Fructose-1 + H-BA => Inter-2
+-3.679990e+00   0.000000e+00    Inter-2 => H2O + Inter-3
+0.000000e+00    0.000000e+00    Inter-3 => Inter-4
+0.000000e+00    0.000000e+00    Inter-4 => Inter-5
+-3.679990e+00   0.000000e+00    Inter-5 => H2O + Inter-6
+0.000000e+00    0.000000e+00    Inter-6 => Inter-7
+-3.679990e+00   0.000000e+00    Inter-7 => H2O + Inter-8
+-3.679990e+00   0.000000e+00    Inter-8 => H-BA + HMF-9
+-3.679990e+00   0.000000e+00    Inter-2 => Fructose-1 + H-BA
+3.679990e+00    0.000000e+00    H2O + Inter-3 => Inter-2
+0.000000e+00    0.000000e+00    Inter-4 => Inter-3
+0.000000e+00    0.000000e+00    Inter-5 => Inter-4
+3.679990e+00    0.000000e+00    H2O + Inter-6 => Inter-5
+0.000000e+00    0.000000e+00    Inter-7 => Inter-6
+3.679990e+00    0.000000e+00    H2O + Inter-8 => Inter-7
+3.679990e+00    0.000000e+00    H-BA + HMF-9 => Inter-8
+0.000000e+00    0.000000e+00    HMF-9 => LA-FA
