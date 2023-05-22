@@ -21,7 +21,7 @@ This repository contains OpenMKM templates/examples that are mentioned in the Jo
 
 
 ## Manuscript DOI
-Placeholder. 
+If you use OpenMKM please cite: https://doi.org/10.1021/acs.jcim.3c00088
 
 ## Contact Information
 For questions please contact vkineticslab@udel.edu. 
